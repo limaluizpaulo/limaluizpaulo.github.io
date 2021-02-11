@@ -10,16 +10,26 @@
     <title>Portfolio</title>
     <style>
 
-        .top-bar{
+        header{
             background-color: #007253;
             display: flex; 
-            color:white;   
-           
+        }
+
+        .top-bar{
+            color:white; 
+            margin: auto;  
+            font-size: 25px;
+            
+        }
+
+       * {
+            font-family: monospace;
+            color: white;
+            text-decoration: none;
         }
 
         body {
-            font-family: monospace;
-            background-color: #323330;color: white
+            background-color: #323330;
         }
 
         #nome {
@@ -39,19 +49,19 @@
 </head>
 <body>
 
-    <header class="top-bar">
+    <header >
     
         <div>
     <img src="/trybe.png"  alt="logo trybe">
     </div>
-    <div>
-    <h2 >
+    <div class="top-bar">
+   
         <a href="#sobre">Sobre</a>&emsp;
         <a href="#habilidades">Habilidades</a>&emsp;
         <a href="#formacao">Formação</a>&emsp;
         <a href="#experiencias">Experiencia</a>&emsp;
         <a href="#site">Links</a>
-    </h2>
+  
 </div>
     </header>
     
