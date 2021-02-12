@@ -10,13 +10,34 @@
     <title>Portfolio</title>
     <style>
 
+
+a:link {
+   color: white;
+}
+
+
+a:visited {
+    color: white;
+}
+
+
+a:hover {
+    color: #00d69d;
+}
+
+
+a:active {
+    color: black;
+}
+
         header{
             background-color: #007253;
             display: flex; 
+            
         }
 
         .top-bar{
-            color:white; 
+            
             margin: auto;  
             font-size: 25px;
             
@@ -32,14 +53,19 @@
             display: flex;
         }
 
+        .corpo{
+            background-color: white;
+            color: black;
+        }
+
         #sobre {
             margin: auto; 
             padding: 0 90px;
+            color:white; 
         }
 
        * {
             font-family: monospace;
-            color: white;
             text-decoration: none;
         }
 
@@ -58,6 +84,7 @@
 
         #texto {
             font-family: 'Ubuntu', sans-serif;
+            width: 90%;
         }
 
         h1 {
@@ -66,6 +93,10 @@
         
         h2{
              color:#007253;
+        }
+
+        html {
+            scroll-behavior: smooth;
         }
 
     </style>
@@ -109,8 +140,8 @@
 </div>
     
     
-    
-    
+   
+    <div class="corpo">
     <h1 id="habilidades">Minhas Habilidades</h1>
     <ul>
     <li>HTML</li>
@@ -169,14 +200,17 @@
             
             Prestar informações aos familiares, hospitais e delegacias
             </p>
-            <hr>
+            
+        </div>
+
+        <hr>
 
     <h1 id="site">Links</h1>
     
     <a href="https://limaluizpaulo.github.io/portfolio/urna/" target="_blank">Projeto: Urna Eletrônica</a></br></br></br>
 
     <a href="https://luizpaulo.eng.br" target="_blank">Meu site</a>
-    
+
     
 
 </body>
