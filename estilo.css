@@ -33,6 +33,30 @@ footer {
     background-color: black;
 }
 
+body {
+    background-color: #323330;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2{
+    color:#007253;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    font-size: 15px;
+}
+
+span{
+    color: #00c591;
+}
+
 .top-bar{
     
     margin: auto;  
@@ -68,17 +92,7 @@ footer {
 
 
 
-body {
-    background-color: #323330;
-}
 
-ul {
-    font-size: 15px;
-}
-
-span{
-    color: #00c591;
-}
 
 #nome {
     font-family: 'Lexend Mega', sans-serif; 
@@ -95,14 +109,4 @@ span{
     color:white;
 }
 
-h1 {
-    text-align: center;
-}
 
-h2{
-    color:#007253;
-}
-
-html {
-    scroll-behavior: smooth;
-}
