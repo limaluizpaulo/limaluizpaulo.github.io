@@ -3,6 +3,30 @@
     text-decoration: none;
 }
 
+body {
+    background-color: #323330;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2{
+    color:#007253;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    font-size: 15px;
+}
+
+span{
+    color: #00c591;
+}
+
 a:link {
     color: white;
 }
@@ -33,29 +57,7 @@ footer {
     background-color: black;
 }
 
-body {
-    background-color: #323330;
-}
 
-h1 {
-    text-align: center;
-}
-
-h2{
-    color:#007253;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-ul {
-    font-size: 15px;
-}
-
-span{
-    color: #00c591;
-}
 
 .top-bar{
     
@@ -72,8 +74,11 @@ span{
 }
 
 .destaque{
-    display: flex;
     margin: 80px 10%;
+}
+
+.flex{
+    float:left;
 }
 
 .corpo{
