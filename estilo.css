@@ -60,11 +60,13 @@ footer {
 ul li{
     display:inline;
     font-size: 25px;
-    margin: 15px
-;
+    margin: 15px;
 }
 
-
+.logo{
+    width: 150px;
+    height: 89px;
+}
 
 .foto {
     border-radius: 50%;
