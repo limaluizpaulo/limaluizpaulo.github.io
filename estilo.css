@@ -60,7 +60,7 @@ footer {
     margin: auto;
 }
 
-li{
+ul li{
     display:inline;
     font-size: 25px;
     margin: 15px
