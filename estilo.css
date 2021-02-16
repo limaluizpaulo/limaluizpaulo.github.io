@@ -11,6 +11,10 @@ h1 {
     text-align: center;
 }
 
+h3 {
+    margin: 0 40px 0 0;
+}
+
 h2{
     color:#007253;
 }
@@ -19,9 +23,6 @@ html {
     scroll-behavior: smooth;
 }
 
-ul {
-    font-size: 15px;
-}
 
 span{
     color: #00c591;
@@ -39,7 +40,6 @@ a:hover {
     color: #00d69d;
 }
 
-
 a:active {
     color: black;
 }
@@ -47,7 +47,6 @@ a:active {
 header{
     background-color: #007253;
     display: flex; 
-    
 }
 
 footer {
@@ -57,24 +56,27 @@ footer {
     background-color: black;
 }
 
-
-
-.top-bar{
-    
-    margin: auto;  
-    font-size: 25px;
-    
+.top-bar {
+    margin: auto;
 }
+
+.top-bar ul li{
+    display:inline;
+    font-size: 25px;
+    margin: 15px
+;
+}
+
+
 
 .foto {
     border-radius: 50%;
     border: 4px solid #007253;
-   
-    
+    margin: 0 40px 0 0;
 }
 
 .destaque{
-    margin: 80px 10%;
+    margin: 10px 10px 150px 10pxb;
 }
 
 .flex{
@@ -95,10 +97,6 @@ footer {
     color:white; 
 }
 
-
-
-
-
 #nome {
     font-family: 'Lexend Mega', sans-serif; 
     
@@ -106,12 +104,14 @@ footer {
 
 #texto {
     font-family: 'Ubuntu', sans-serif;
-    width: 90%;
     font-size: 20px;
+    
+}
+#habilidades{
+    margin: 40px;
 }
 
 #site {
     color:white;
 }
-
 
