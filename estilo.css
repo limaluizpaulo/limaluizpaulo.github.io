@@ -49,13 +49,15 @@ span{
 
 }
 
+.projeto a{
+    color: #007253;
+    font-weight: bold;
+}
+
 a:link {
     color: white;
 }
 
-a:visited {
-    color: white;
-}
 
 a:hover {
     color: #00d69d;
