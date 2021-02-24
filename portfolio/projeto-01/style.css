@@ -34,6 +34,8 @@ a{
     background-color: orangered;
     display: flex;
     padding: 10px;
+    width: 100%;
+
 }
 
 #minha_foto{
