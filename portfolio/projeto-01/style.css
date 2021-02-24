@@ -19,6 +19,7 @@ a{
 #cabecalho {
     position: fixed;
     top: 0px;
+    left: 0px;
     background-color: black;
     color: white;
     padding: 5px;
