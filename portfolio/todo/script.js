@@ -47,7 +47,7 @@ function changeColor(event){
 }
 
 function itensListener(){
-    const itemList = document.querySelectorAll('ol')
+    const itemList = document.querySelectorAll('ul')
     for(let index = 0; index < itemList.length; index++){
     itemList[index].addEventListener('click', changeColor)
     itemList[index].addEventListener('dblclick', completeTask)
@@ -73,7 +73,7 @@ function deleteDone(){
 function save(){
     let listOl = document.getElementById('lista-tarefas').innerHTML;
     localStorage.itens = listOl;
-    alert('Lista salva');
+    alert('Lista salva no LocalStore do Navegador!');
 }
 
 

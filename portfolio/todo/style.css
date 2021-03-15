@@ -14,7 +14,7 @@ header {
 }
 
 main{
-  text-align: center;
+
   background-color: #db4c3f;
   margin:auto;
   width: 50%;
@@ -23,6 +23,11 @@ main{
 
 .input{
 margin:10px;
+background-color:#fff;
+}
+
+#texto-tarefa{
+  margin: 10px;
 }
 
 .botoes{
