@@ -73,7 +73,7 @@ function deleteDone(){
 function save(){
     let listOl = document.getElementById('lista-tarefas').innerHTML;
     localStorage.itens = listOl;
-    alert('Lista salva no LocalStore do Navegador!');
+    alert('Lista salva no Local Storage do Navegador!');
 }
 
 
