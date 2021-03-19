@@ -307,6 +307,10 @@
       justify-content: center;
     }
 
+    .hero{
+      min-height: 60vh;
+    }
+
     .hero h1{
       font-size: 30px;
     }
