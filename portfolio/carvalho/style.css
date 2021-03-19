@@ -203,12 +203,6 @@
     color: #002b21;
   }
   
-  .newsletter p {
-    max-width: 800px;
-    margin-bottom: 35px;
-    text-align: center;
-    color: #002b21;
-  }
   
   .newsletter input {
     padding: 15px;
@@ -245,11 +239,16 @@
     color: white;
     padding:20px;
     border-radius: 10px;
-    width: 50%;
+    width: 95%;
+  }
+
+  .contact-infos h4{
+    text-align: center;   
   }
 
   .contact-infos p{
   color: white;
+  text-align: center;
   }
   
   footer {
