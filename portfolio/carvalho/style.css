@@ -313,4 +313,32 @@
     .hero h3{
       font-size: 15px;
     }
+
+    .know-the-hotel {
+      padding: 100px 10px;
+    }
+  
+    .know-the-hotel .grid li {
+      padding: 10px;
+    }
+  
+    .know-the-hotel .grid li.small {
+      flex-basis: 100%;
+    }
+    
+    .know-the-hotel .grid li.large {
+      flex-basis: 100%;
+    }
+  
+    .features .grid {
+      flex-direction: column;
+    }
+  
+    .newsletter button {
+      margin-top: 20px;
+    }
+  
+    footer ul li i {
+      font-size: 45px;
+    }
   }
