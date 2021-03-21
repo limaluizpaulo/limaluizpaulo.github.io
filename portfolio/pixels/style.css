@@ -1,5 +1,10 @@
 #color-palette {
-  display: inline-block;
+  display: flex;
+  margin: auto;
+}
+
+.button-container{
+  margin: auto;
 }
 
 #title {
@@ -57,6 +62,11 @@
   float: left;
 }
 
+#pixel-board{
+  margin: auto;
+  padding: 20px;
+}
+
 .container {
   border: 7px dotted rgb(0, 191, 255);
   margin: auto;
@@ -79,4 +89,11 @@
 
 .color {
   border: 1px solid black;
+}
+
+
+@media screen and (max-width:  720px){
+  .container {
+    width:100%;
+  }
 }
