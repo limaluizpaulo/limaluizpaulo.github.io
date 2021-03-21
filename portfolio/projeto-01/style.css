@@ -17,7 +17,6 @@ a{
 }
 
 #cabecalho {
-    position: fixed;
     top: 0px;
     left: 0px;
     background-color: black;
@@ -31,7 +30,6 @@ a{
 }
 
 #topo{
-    margin: 90px 0 0 0;
     background-color: orangered;
     display: flex;
     padding: 10px;
@@ -40,8 +38,7 @@ a{
 }
 
 #minha_foto{
-    width: 10%;
-    height: 10%;
+    width: 150px;
     border-radius: 32% 0 20% 0;
     border: solid 5px black;
 }
@@ -54,13 +51,18 @@ a{
 
 #corpo{
     display: flex;
-    
+}
+
+.corpo{
+    margin: 10px auto;
+    border: solid 1px orangered;
 }
 
 #tabela{
     color: orangered;
     font-weight: bold;
     margin: 30px;
+    align-items: center;
 }
 
 
@@ -78,4 +80,11 @@ a{
 
 .lado-esquerdo, .lado-direito {
     color:black
+}
+
+
+@media screen and (max-width:  720px){
+    #minha_foto{
+        display: none;
+    }
 }
