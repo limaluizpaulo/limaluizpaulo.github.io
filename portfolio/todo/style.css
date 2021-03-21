@@ -12,6 +12,7 @@ header {
   border-radius: 10px;
   padding: 10px;
   text-align: center;
+  font-size: 13px;
 }
 
 main{
@@ -41,7 +42,8 @@ flex-direction: column;
 
 @media screen and (max-width:  720px){
   main{
-    width: 90%;
+    width: 95%;
+    padding: 2px;
   }
 
 }
