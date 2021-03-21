@@ -76,12 +76,12 @@ ul li{
 .logo{
     width: 150px;
     height: 89px;
+
 }
 
 .container-img{
-    flex: 1;
     max-width: 279px;
-    text-align: center;
+    margin: 0 auto;
     padding: 20px;
 }
 
@@ -118,4 +118,19 @@ ul li{
 
 #site {
     color:white;
+}
+
+@media screen and (max-width:  720px){
+    .corpo{
+        margin: 0;
+    }
+    footer {
+        margin: 0;
+    }
+
+    nav{
+        display:none;
+        
+    }
+  
 }
