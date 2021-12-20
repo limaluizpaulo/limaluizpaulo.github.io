@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+      }
+
+      #cmk-video {
+        display: block;
+        margin: 0 auto;
+        width: calc(1.77 * 25vh);
+        height: 100%;
+      }
+
+      #cmk-audio {
+        display: none;
+      }
+
+      body {
+        background-color: #419be2;
+      }
+    </style>
+    <title>Retrospectiva Comunikime</title>
+  </head>
+  <body>
+    <video autoplay muted id="cmk-video">
+      <source src="pasch.mp4" type="video/mp4" />
+    </video>
+
+    <audio autoplay id="cmk-audio">
+      <source src="./Instrumental.mp3" type="audio/mp3" />
+    </audio>
+  </body>
+  <script></script>
+</html>
